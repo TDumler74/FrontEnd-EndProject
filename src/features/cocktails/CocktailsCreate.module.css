@@ -1,0 +1,5 @@
+.newDrinks{
+   background: linear-gradient(to right, rgb(255, 0, 166), blue );
+  animation: colorShift 10s linear infinite alternate;;
+  background-image: src='src\components\img\Download (4).jpeg';
+}

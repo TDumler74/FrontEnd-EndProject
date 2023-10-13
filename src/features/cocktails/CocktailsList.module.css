@@ -1,0 +1,46 @@
+.cocktails{
+  background: linear-gradient(to left, #ede3e9, blue, rgb(255, 0, 166));
+  padding: 50px;
+ 
+   
+ 
+}
+ul {
+   padding: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li{
+ 
+  border: 200px;
+}
+.backgroundImage{
+  background-image: url("src\components\img\cocktailbar.jpg");
+
+
+            background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+            background-size: contain;
+            height: 400px;
+         
+            width: 400px;
+}
+
+.img {
+ border-radius: 100px;
+  width: 200px;
+}
+.img:hover{
+  -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+

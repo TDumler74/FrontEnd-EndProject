@@ -1,0 +1,34 @@
+.container {
+   
+  display: flex;
+ 
+  background: linear-gradient(to right, rgb(255, 0, 166), blue);
+  animation: colorShift 10s linear infinite alternate;
+  background: linear-gradient(to left, #ede3e9, blue, rgb(255, 0, 166));
+  
+}
+
+@keyframes colorShift {
+  0% {
+    background: linear-gradient(to right, rgb(255, 0, 217), rgb(21, 0, 255));
+  }
+
+  50% {
+    background: linear-gradient(to right, rgb(21, 0, 255), rgb(255, 0, 217));
+  }
+
+  100% {
+    background: linear-gradient(to right, rgb(255, 0, 217), rgb(21, 0, 255));
+  }
+}
+
+
+
+.p {
+  flex-direction: column;
+
+  font-family: fantasy;
+  color: rgb(106, 238, 45);
+  font-family: fantasy;
+
+}
